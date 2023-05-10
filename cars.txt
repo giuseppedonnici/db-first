@@ -1,0 +1,15 @@
+cars
+___________________
+
+id - INT - PRIMARY-KEY
+brand - VARCHAR(100) - NOT NULL
+model - VARCHAR(100) 
+production_year - YEAR - NOT NULL
+color - VARCHAR(50)
+registration_number - VARCHAR(10) - UNIQUE - NOT NULL
+fuel_type - VARCHAR(50)
+fuel_consumption - VARCHAR(20)
+price - DECIMAL(10,2)
+status - VARCHAR(10) - NOT NULL - DEFAULT("used")
+mileage - INT - UNSIGNED
+numerber_of_previous_owners - TINYINT - DEFAULT(1)
